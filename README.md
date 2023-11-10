@@ -141,10 +141,10 @@ showAdButton.setOnClickListener {
 
 
 ## 5. Define these parameters in Firebase Remote Config in the project being used (Optional)
-`AdsConfig_Interstitial_QueueSize` ( Number, default 2 )
-`AdsConfig_Interstitial_LoadInterval` ( Number, default 1800 )
-`AdsConfig_Rewarded_QueueSize` ( Number, default 2 )
-`AdsConfig_Rewarded_LoadInterval` ( Number, default 3600 )
+- `AdsConfig_Interstitial_QueueSize` ( Number, default 2 )
+- `AdsConfig_Interstitial_LoadInterval` ( Number, default 1800 )
+- `AdsConfig_Rewarded_QueueSize` ( Number, default 2 )
+- `AdsConfig_Rewarded_LoadInterval` ( Number, default 3600 )
 
 ## 6. Test
 Your ads should now be cached optimally. For the best test case you can use Adx and
